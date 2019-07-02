@@ -1,0 +1,43 @@
+Sample output
+
+rupali@rupali-Lappy:~$ ./macaddress_info.py 18:db:f2:37:68:09
+
+isPrivate False
+
+companyAddress One Dell Way Round Rock TX 78682 US
+
+oui 18DBF2
+
+countryCode US
+
+companyName Dell Inc
+
+administrationType UAA
+
+comment
+
+virtualMachine Not detected
+
+isValid True
+
+applications []
+
+wiresharkNotes No details
+
+searchTerm 18:db:f2:37:68:09
+
+transmissionType unicast
+
+blockFound True
+
+blockSize 16777216
+
+dateCreated 2016-08-26
+
+borderLeft 18DBF2000000
+
+assignmentBlockSize MA-L
+
+borderRight 18DBF2FFFFFF
+
+dateUpdated 2016-08-26

@@ -1,0 +1,23 @@
+import json
+
+import requests
+
+import sys
+
+def main(search=sys.argv[1]):
+
+    search = sys.argv[1]
+
+    response = requests.get("https://api.macaddress.io/v1?apiKey=at_1HHeVkRYCFwat5TyJRonTSOZ1b1C6&output=json&search={}".format(search))
+
+    data = response.json()
+
+    for x in data:
+
+        for y in data[x]:
+
+            print y,'\t\t\t\t\t\t\t',data[x][y]
+
+if __name__ == "__main__":
+
+    main()
